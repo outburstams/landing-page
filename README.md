@@ -1,6 +1,8 @@
 # landing-page
 > Temporary landing page for outburst.amsterdam
 
+![Outburst Amsterdam](/docs/banner.jpg)
+
 Outburst Amsterdam is an inititative by the Faculty of Digital Media and Creative Industry, Hogeschool van Amsterdam. Outburst Amsterdam positions itself as the annual showcase of examples where creativity, techno-logy and knowledge meet to help improve socie-ty.
 
 ## Install
