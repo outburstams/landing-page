@@ -78,7 +78,6 @@ time {
 h1 {
   font-size: 3.75em;
   text-transform: uppercase;
-  font-style: italic;
 }
 
 h1:first-line {
@@ -101,7 +100,7 @@ h4 {
   display: inline-block;
   text-transform: uppercase;
   vertical-align: super;
-  margin-right: 2em;
+  font-size: 0.8em;
 }
 
 h2 {
@@ -112,6 +111,10 @@ h2 {
 img {
   z-index: 1;
   max-width: 100%;
+}
+
+.hva {
+  margin-left: 2em;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -130,8 +133,17 @@ img {
     width: 100%;
   }
 
+  h2 {
+    margin-left: 0%;
+    max-width: 100%; 
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
   span {
-    font-size: 6em;
+    font-size: 3em;
   }
 }
 
