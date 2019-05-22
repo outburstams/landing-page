@@ -117,6 +117,13 @@ img {
 @media only screen and (max-width: 1000px) {
   main {
     flex-direction: column;
+    height: 100%;
+  }
+
+  body {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 100%;
   }
 
   .left, .right {
