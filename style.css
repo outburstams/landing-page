@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Cocogoose-Condensed';
   src:
-    url('/assets/fonts/CocogooseCondensed-Regular.woff') format('woff');
+    url('./assets/fonts/CocogooseCondensed-Regular.woff') format('woff');
   font-style: normal;
   font-weight: 400;
 }
@@ -9,7 +9,7 @@
 @font-face {
   font-family: 'Cocogoose-Condensed';
   src:
-    url('/assets/fonts/CocogooseCondensed-LightItalic.woff') format('woff');
+    url('./assets/fonts/CocogooseCondensed-LightItalic.woff') format('woff');
   font-style: italic;
   font-weight: 300;
 }
@@ -17,7 +17,7 @@
 @font-face {
   font-family: 'Cocogoose-Pro';
   src:
-    url('/assets/fonts/CocogoosePro-Light.woff') format('woff');
+    url('./assets/fonts/CocogoosePro-Light.woff') format('woff');
   font-style: normal;
   font-weight: 300;
 }
