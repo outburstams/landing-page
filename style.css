@@ -22,6 +22,14 @@
   font-weight: 300;
 }
 
+@font-face {
+  font-family: 'Cocogoose-Condensed';
+  src:
+    url('./assets/fonts/CocogooseCondensed-Light.woff') format('woff');
+  font-style: normal;
+  font-weight: 300;
+}
+
 
 body {
   background: #fff;
@@ -58,7 +66,12 @@ main {
   animation: fadeInRight 1.5s ease 2s forwards;
 }
 
-span {
+.subtitle {
+  font-family: 'Cocogoose-Condensed', sans-serif;
+  font-weight: 300;
+}
+
+.display {
   font-size: 8em;
   line-height: 0.8;
   color: #FF0000;
@@ -70,13 +83,13 @@ span {
 }
 
 time {
-  font-size: 2.3em;
+  font-size: 2em;
   color: #FF0000;
   text-transform: uppercase;
 }
 
 h1 {
-  font-size: 3.75em;
+  font-size: 3.5em;
   text-transform: uppercase;
 }
 
@@ -106,6 +119,7 @@ h4 {
 h2 {
   max-width: 65%;
   margin-left: 35%;
+  margin-bottom: 5vh;
 }
 
 img {
@@ -115,6 +129,31 @@ img {
 
 .hva {
   margin-left: 2em;
+}
+
+a {
+  background: #FF0000;
+  text-decoration: none;
+  padding: 0.7em 1.2em;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+a:first-of-type {
+  background: #222;
+  margin-right: 2vw;
+}
+
+.display i {
+  margin-left: -20px;
+}
+
+.hva-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2em;
+  width: 15%;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -133,17 +172,36 @@ img {
     width: 100%;
   }
 
+  .right {
+    text-align: left;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+
+  .left {
+    margin-top: 10vh;
+  }
+
   h2 {
     margin-left: 0%;
-    max-width: 100%; 
+    max-width: 100%;
   }
 
   h1 {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 
-  span {
-    font-size: 3em;
+  time {
+    font-size: 1.5em;
+  }
+
+  .display {
+    font-size: 4em;
+  }
+
+  .hva-logo {
+    width: 50%;
+    margin-left: 5vw;
   }
 }
 
