@@ -32,13 +32,8 @@
 
 
 body {
-  background: #fff;
-  max-width: 70vw;
-  height: 100vh;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
   font-family: 'Cocogoose-Condensed', sans-serif;
+  margin: 0;
 }
 
 main {
@@ -110,7 +105,6 @@ h3 {
 }
 
 h4 {
-  display: inline-block;
   text-transform: uppercase;
   vertical-align: super;
   font-size: 0.8em;
@@ -131,7 +125,7 @@ img {
   margin-left: 2em;
 }
 
-a {
+main a {
   background: #FF0000;
   text-decoration: none;
   padding: 0.7em 1.2em;
@@ -222,6 +216,15 @@ a:focus {
   .hva-logo {
     margin-left: 5vw;
   }
+
+  .showcase {
+    grid-template-columns: 5vw 1fr 5vw !important;
+    grid-column: 1/-1 !important;
+  }
+
+  article {
+    max-width: 100% !important;
+  }
 }
 
 table {
@@ -268,6 +271,8 @@ table th {
 
 .default {
   margin-top: 10vh;
+  max-width: 70vw;
+  margin: 0 auto;
 }
 
 table:last-child {
@@ -324,3 +329,71 @@ table:last-child {
     transform: translate3d(0, 0, 0);
   }
 }
+
+article {
+  background: #FFF;
+  color: #222;
+  padding: 1em;
+  max-width: 25%;
+  margin-bottom: 5vh;
+  transition: all .25s ease;
+}
+
+article:hover {
+  transform: translateY(-1%);
+}
+
+  article a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  article img {
+    height: 15vh;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  article h4 {
+    color: #FF0000;
+    font-size: 1.777em;
+    font-family: 'Cocogoose-Condensed',sans-serif;
+    font-weight: 400;
+    line-height: 1.15;
+    margin-bottom: 0.3em;
+  }
+
+  article time {
+    font-size: 16px;
+  }
+
+  article p {
+    font-family: 'Cocogoose-Pro', sans-serif;
+    font-weight: 300;
+    line-height: 1.45;
+  }
+
+  .showcase {
+    display: grid;
+    background: #FF0000;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 5vh 0;
+    margin-top: 0;
+  }
+
+  .container {
+    grid-column: 2 / -2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .home {
+    background: #fff;
+    max-width: 70vw;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
