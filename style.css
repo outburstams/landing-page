@@ -397,3 +397,7 @@ article:hover {
     display: flex;
     justify-content: center;
   }
+
+  .location {
+    margin-top: 10vh;
+  }
