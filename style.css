@@ -161,8 +161,8 @@ a:focus {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 2em;
-  width: 15em;
+  padding: 1em;
+  width: 12em;
 }
 
 @media only screen and (max-width: 1000px) {
